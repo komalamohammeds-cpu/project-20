@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    background: #fff;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+}
+
+.banner {
+    width: 100%;
+    display: flex;          
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.banner img {
+    width: 100%;              
+}
+
+ .main-header {
+    padding: 10px;
+}
+
+.main-header h2 {
+    margin-bottom: 15px;
+}
+
+.main-header select {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.topics h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.topics-list img {
+    margin-bottom: 15px;
+
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery img :nth-child(4) {
+    grid-column: span 2;
+}
+
+.gallery img :nth-child(7) {
+    grid-row: span 2;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    padding: 30px 20px;
+    background: linear-gradient(#1e3c72, #2a5298);
+    text-align: center;
+    margin-top: 40px;
+ }
+  
+  .footer h3 {
+    font-size: 20px;
+    color: #fff;
+}
+  
+  .footer img {
+    display: block;
+}
+  
+ 
+  .footer > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+  
+  .footer p {
+    margin: 0;
+    font-size: 15px;
+    opacity: 0.9;
+    color: #fff;
+}
+  
+
+  .social-links {
+    display: flex;
+    gap: 14px;
+    margin-top: 10px;
+}
+
+  .social-links img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    color: #fff;
+}
+  
+
+
+
+
+
+
+
